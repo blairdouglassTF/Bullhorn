@@ -32,7 +32,7 @@
   "maxUploadSize": 5242880,
   "service": {
     "batchSize": 500,
-    "corpToken": "[DEOD69]",
+    "corpToken": "[ DEOD69 ]",
     "port": null,
     "swimlane": "[66]",
     "fields": [
