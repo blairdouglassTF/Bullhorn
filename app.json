@@ -41,7 +41,6 @@
       "publishedCategory(id,name)",
       "address(city,state,zip)",
       "employmentType",
-      "dateLastPublished",
       "publicDescription",
       "isOpen",
       "isPublic",
