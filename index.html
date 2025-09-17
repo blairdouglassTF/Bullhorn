@@ -30,5 +30,16 @@
             m.parentNode.insertBefore(a, m)
         })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 </script>
-<script src="runtime-es2015.js" type="module"></script><script src="runtime-es5.js" nomodule defer></script><script src="polyfills-es5.js" nomodule defer></script><script src="polyfills-es2015.js" type="module"></script><script src="main-es2015.js" type="module"></script><script src="main-es5.js" nomodule defer></script></body>
+<script src="runtime-es2015.js" type="module"></script><script src="runtime-es5.js" nomodule defer></script><script src="polyfills-es5.js" nomodule defer></script><script src="polyfills-es2015.js" type="module"></script><script src="main-es2015.js" type="module"></script><script src="main-es5.js" nomodule defer></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  // Catch all broken images and hide them
+  document.body.addEventListener("error", function(e) {
+    if (e.target.tagName.toLowerCase() === 'img') {
+      e.target.style.display = 'none';
+    }
+  }, true);
+});
+</script>
+</body>
 </html>
